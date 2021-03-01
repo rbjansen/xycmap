@@ -14,6 +14,7 @@ This package makes it easy to create custom two-dimensional colormaps, apply the
 Make a custom interpolated colormap by specifying four corner colors (see recognized formats [here](https://matplotlib.org/stable/api/colors_api.html)), and dimensions `n`:
 
 ```python
+import xycmap
 corner_colors = ("lightgrey", "green", "blue", "red")
 n = (5, 5)  # x, y
 cmap = xycmap.custom_xycmap(corner_colors=corner_colors, n=n)
