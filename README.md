@@ -20,7 +20,7 @@ n = (5, 5)  # x, y
 cmap = xycmap.custom_xycmap(corner_colors=corner_colors, n=n)
 ```
 
-![custom_xycmap](https://user-images.githubusercontent.com/31345940/109507925-8c781200-7a9f-11eb-9a2d-32c19b07a1c0.png)
+![custom_xycmap](https://user-images.githubusercontent.com/31345940/109711695-705b9a00-7b9f-11eb-9a11-5a5b98f652f0.png)
 
 Or make a colormap by mixing two matplotlib colormaps, and specifying dimensions `n`:
 
