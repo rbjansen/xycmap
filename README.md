@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 xcmap = plt.cm.rainbow
 ycmap = plt.cm.Greys
 n = (5, 5)  # x, y
-cmap = xycmap.custom_xycmap(xcmap=xcmap, ycmap=ycmap, n=n)
+cmap = xycmap.mean_xycmap(xcmap=xcmap, ycmap=ycmap, n=n)
 ```
 
 ![mean_xycmap](https://user-images.githubusercontent.com/31345940/109420855-d647f600-79d4-11eb-8b3a-f50505fcc44a.png)
