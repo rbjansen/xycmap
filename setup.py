@@ -6,7 +6,7 @@ with open("README.md", 'r') as f:
 
 setup(
     name="xycmap",
-    version="1.0.0",
+    version="1.0.1",
     description="Bivariate colormap solutions",
     keywords="visualization, colormap, color, bivariate, two-dimensional",
     long_description=long_description,
